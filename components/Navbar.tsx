@@ -48,8 +48,13 @@ export default function Navbar() {
       } rounded-2xl px-4 md:px-6 py-3`}
     >
       <div className="flex items-center justify-between">
-        <a href="#home" className="relative w-9 h-9 rounded-full overflow-hidden border border-primary/50">
-          <Image src="/profile.png" alt="Sunil Saini" fill className="object-cover" />
+        <a href="#home" className="flex items-center gap-2.5 group">
+          <span className="relative w-9 h-9 rounded-full overflow-hidden border border-primary/50 shrink-0">
+            <Image src="/profile.png" alt="Sunil Saini" fill className="object-cover" />
+          </span>
+          <span className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+            Sunil Saini
+          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-1">

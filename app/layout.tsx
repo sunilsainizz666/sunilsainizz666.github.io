@@ -22,6 +22,14 @@ export const metadata: Metadata = {
     "Stripe Integration",
   ],
   authors: [{ name: "Sunil Saini" }],
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+      { url: "/icon.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: [{ url: "/icon.png", sizes: "180x180" }],
+    shortcut: "/favicon.png",
+  },
   openGraph: {
     title: "Sunil Saini | Senior Mobile Engineer",
     description:
@@ -73,6 +81,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/icon.png" type="image/png" sizes="192x192" />
+        <link rel="apple-touch-icon" href="/icon.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

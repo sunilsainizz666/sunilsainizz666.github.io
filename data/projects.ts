@@ -145,7 +145,7 @@ export const reactNativeProjects: Project[] = [
     subtitle: "Event Management & Vendor Platform",
     category: "Marketplace / Events",
     description:
-      "A comprehensive event management platform where shoppers discover, book, and manage vendors in one place — with built-in rewards, ratings, and a personalized brand assessment tool for vendors.",
+      "A comprehensive event management platform where shoppers discover, book, and manage vendors in one place - with built-in rewards, ratings, and a personalized brand assessment tool for vendors.",
     tech: ["React Native", "Firebase", "Node.js", "Stripe"],
     features: [
       "Vendor discovery & booking",

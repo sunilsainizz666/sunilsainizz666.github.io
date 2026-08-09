@@ -7,7 +7,7 @@ import { Zap, Smartphone, Download, Server } from "lucide-react";
 const metrics = [
   { icon: Zap, value: 4, suffix: "+", label: "Years Experience" },
   { icon: Smartphone, value: 15, suffix: "+", label: "Apps Delivered" },
-  { icon: Download, value: 10, suffix: "K+", label: "Downloads" },
+  { icon: Download, value: 1, suffix: "K+", label: "Downloads" },
   { icon: Server, value: 5, suffix: "+", label: "SaaS & Real-time Systems" },
 ];
 

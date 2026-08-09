@@ -6,7 +6,7 @@ import { Mail, Linkedin, MessageCircle, Phone, Copy, Check } from "lucide-react"
 import SectionWrapper from "./SectionWrapper";
 
 const contacts = [
-  { icon: Mail, label: "Email", value: "sunil@example.com", href: "mailto:sunil@example.com" },
+  { icon: Mail, label: "Email", value: "sunilsaini47693@gmail.com", href: "mailto:sunilsaini47693@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sunil-saini", href: "https://linkedin.com/in/sunil-saini-2245b4254/" },
   { icon: Phone, label: "Phone", value: "+91 7877374694", href: "tel:+917877374694" },
   { icon: MessageCircle, label: "WhatsApp", value: "Chat on WhatsApp", href: "https://wa.me/917877374694" },

@@ -84,7 +84,7 @@ export default function Hero() {
             <a href="https://linkedin.com/in/sunil-saini-2245b4254/" target="_blank" rel="noopener noreferrer" className="p-2 text-muted hover:text-primary transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:sunil@example.com" className="p-2 text-muted hover:text-primary transition-colors">
+            <a href="mailto:sunilsaini47693@gmail.com" className="p-2 text-muted hover:text-primary transition-colors">
               <Mail size={20} />
             </a>
           </motion.div>

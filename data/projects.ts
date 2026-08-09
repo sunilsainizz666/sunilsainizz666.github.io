@@ -68,6 +68,7 @@ export const featuredProjects: Project[] = [
     screenshots: [
       "/projects/krijuna/1.png",
       "/projects/krijuna/2.png",
+      "/projects/krijuna/3.png",
     ],
     stats: undefined,
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.synilogic.krijuna",

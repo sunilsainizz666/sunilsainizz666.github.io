@@ -33,8 +33,6 @@ jobs:
 
       - name: Build static site
         run: npm run build
-        env:
-          PAGES_BASE_PATH: /${{ github.event.repository.name }}
 
       - name: Disable Jekyll
         run: touch out/.nojekyll

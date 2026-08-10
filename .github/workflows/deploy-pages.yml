@@ -34,8 +34,10 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          # Project Pages URL is https://<user>.github.io/<repo>/
           PAGES_BASE_PATH: /${{ github.event.repository.name }}
+
+      - name: Disable Jekyll
+        run: touch out/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

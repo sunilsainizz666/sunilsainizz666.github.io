@@ -73,6 +73,8 @@ const jsonLd = {
   ],
 };
 
+const assetBase = process.env.PAGES_BASE_PATH || "";
+
 export default function RootLayout({
   children,
 }: {
@@ -81,10 +83,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
-        <link rel="icon" href="/icon.png" type="image/png" sizes="192x192" />
-        <link rel="apple-touch-icon" href="/icon.png" />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="icon" href={`${assetBase}/favicon.png`} type="image/png" sizes="32x32" />
+        <link rel="icon" href={`${assetBase}/icon.png`} type="image/png" sizes="192x192" />
+        <link rel="apple-touch-icon" href={`${assetBase}/icon.png`} />
+        <link rel="shortcut icon" href={`${assetBase}/favicon.png`} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

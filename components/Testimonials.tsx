@@ -58,7 +58,7 @@ export default function Testimonials() {
         <span className="gradient-text">store launch</span>, step by step.
       </h2>
       <p className="text-muted mb-12 max-w-2xl">
-        A full mobile product cycle - architecture, shipping, and everything between.
+        A full mobile product cycle -we need to  architecture, shipping, and everything between.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
